@@ -4737,11 +4737,7 @@ function separatorNoWhitespace(isFacebookTranslationTag, child) {
     return "";
   }
 
-  if (child.length === 1) {
-    return softline;
-  }
-
-  return hardline;
+  return softline;
 }
 
 function separatorWithWhitespace(isFacebookTranslationTag, child) {

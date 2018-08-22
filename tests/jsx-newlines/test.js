@@ -92,3 +92,5 @@ regression_extra_newline_2 = (
     )
   </div>
 );
+
+x = <div>Sales tax estimated using a rate of {salesTax * 100}%.</div>
